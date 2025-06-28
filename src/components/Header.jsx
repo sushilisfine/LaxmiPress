@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.jpg";
@@ -9,17 +8,19 @@ export default function Header() {
   const toggleNavbar = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-brand-purple text-brand-gold px-4">
-      <div className="container-fluid">
-        <Link
-          className="navbar-brand d-flex align-items-center text-brand-gold"
-          to="/"
-        >
-          <img src={logo} alt="Logo" className="me-2 rounded logo-img" />
-          <strong>Laxmi Printing Press</strong>
-        </Link>
+    <nav className="navbar navbar-expand-lg bg-brand-purple text-brand-gold px-3 py-2">
+      <div className="container-fluid d-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center">
+          <Link
+            className="navbar-brand d-flex align-items-center text-brand-gold mb-0"
+            to="/"
+          >
+            <img src={logo} alt="Logo" className="me-2 rounded logo-img" />
+            <strong className="fs-6">Laxmi Printing Press</strong>
+          </Link>
+        </div>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler ms-auto"
           type="button"
           aria-controls="navbarNav"
           aria-expanded={!isNavCollapsed}

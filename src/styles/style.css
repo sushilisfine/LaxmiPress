@@ -1,3 +1,4 @@
+// src/styles/style.css
 /* Custom styling overrides */
 
 /* WhatsApp Button */
@@ -16,19 +17,6 @@
 .wide-container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-:root {
-  --brand-purple: #4b0082;
-  --brand-gold: #ffd700;
-}
-
-.bg-brand-purple {
-  background-color: var(--brand-purple);
-}
-
-.text-brand-gold {
-  color: var(--brand-gold);
 }
 
 :root {
@@ -58,7 +46,7 @@ img {
 .welcome-img {
   width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 600px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
@@ -66,7 +54,8 @@ img {
 
 @media (max-width: 576px) {
   .welcome-img {
-    max-height: 250px;
+    max-height: 600px;
+    max-width: 350px;
     object-fit: contain;
   }
 }

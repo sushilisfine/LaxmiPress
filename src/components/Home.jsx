@@ -1,10 +1,15 @@
 // src/components/Home.jsx
-import welcome from '../assets/welcome.jpg';
+import welcome from "../assets/welcome.jpg";
 
 export default function Home() {
   return (
     <div className="container text-center py-4">
-      <img src={welcome} alt="Welcome" className="img-fluid rounded mb-3" />
+      <img
+        src={welcome}
+        alt="Welcome"
+        className="img-fluid rounded mb-3 welcome-img"
+      />
+
       <h2 className="mb-3">Fast & Reliable Printing Services in Darbhanga</h2>
       <p>Located at Bhagat Singh Chowk, Lalbagh, Darbhanga</p>
       <a

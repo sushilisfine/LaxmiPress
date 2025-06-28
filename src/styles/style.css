@@ -58,8 +58,15 @@ img {
 .welcome-img {
   width: 100%;
   height: auto;
-  max-height: 500px;
+  max-height: 400px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .welcome-img {
+    max-height: 250px;
+    object-fit: contain;
+  }
 }

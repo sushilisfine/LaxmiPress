@@ -1,0 +1,56 @@
+/* Custom styling overrides */
+
+/* WhatsApp Button */
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+/* Optional max-width for centered sections */
+.wide-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+:root {
+  --brand-purple: #4b0082;
+  --brand-gold: #ffd700;
+}
+
+.bg-brand-purple {
+  background-color: var(--brand-purple);
+}
+
+.text-brand-gold {
+  color: var(--brand-gold);
+}
+
+:root {
+  --brand-purple: #4b0082;
+  --brand-gold: #ffd700;
+}
+
+.bg-brand-purple {
+  background-color: var(--brand-purple) !important;
+}
+
+.text-brand-gold {
+  color: var(--brand-gold) !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Limit logo height responsively */
+.logo-img {
+  max-height: 50px;
+  height: auto;
+}
